@@ -1,4 +1,4 @@
-# 👨‍💻 Alpha — Turning Code into Solutions, and Solutions into Impact
+# 👨‍💻 Alpha — Turning Code into Solutions, Solutions into Impact
 
 Welcome to my space on GitHub.  
 I’m driven by the challenge of taking a raw idea, shaping it into working code, and refining it until it makes a real-world difference.  
@@ -11,7 +11,7 @@ I’m driven by the challenge of taking a raw idea, shaping it into working code
 - 💞️ **Collaboration Mode:** Excited to join **real-world projects** that blend creativity with engineering excellence.  
 - 📫 **Reach Me At:** *alphamunene5@gmail.com*  
 - 😄 **Pronouns:** Mr  
-- ⚡ **Fun Fact:** I code day and night… my coffee works longer shifts than I do.  
+- ⚡ **Fun Fact:** I treat bugs like plot twists — unexpected, but they make the story better.  
 
 ---
 
