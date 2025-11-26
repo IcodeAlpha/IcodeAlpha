@@ -1,6 +1,6 @@
 #  Turning Code into Solutions, Solutions into Impact
 
-Welcome to my canvas.  
+Welcome to my Digital Space
 I’m driven by the challenge of taking a raw idea, shaping it into working code, and refining it until it makes a real-world difference.  
 
 ---
