@@ -45,5 +45,4 @@ Welcome to my Digital Space — I'm driven by the challenge of taking a raw idea
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=IcodeAlpha&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=IcodeAlpha&theme=dark&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=IcodeAlpha&theme=dark&hide_border=true&hide_total_contributions=true" alt="GitHub Streak" />
