@@ -46,7 +46,7 @@ Most of these projects are independently developed, with a focus on solving prac
 ## GitHub Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=IcodeAlpha&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=ffa657&icon_color=ffa657&text_color=c9d1d9" alt="GitHub Stats" height="170" />
+  <img src="./assets/stats.svg" alt="GitHub Stats" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IcodeAlpha&layout=compact&hide_border=true&bg_color=0d1117&title_color=ffa657&text_color=c9d1d9" alt="Top Languages" height="170" />
 </p>
 
