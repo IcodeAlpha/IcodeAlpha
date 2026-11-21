@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="910" viewBox="0 0 820 910" role="img" aria-label="Projects Alpha is building: Sanctum, Chobo, Wakili, Sipha, RedRush, MatchLens Live, and Expected Threat">
+  <style>
+    .title { font: 700 18px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffa657; }
+    .tag { font: 600 11px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 1px; }
+    .desc { font: 400 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .k { font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #ffa657; }
+    .v { font: 400 13px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #79c0ff; }
+  </style>
+
+  <!-- 1. Sanctum -->
+  <g transform="translate(0,0)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">Sanctum</text>
+    <text x="796" y="33" text-anchor="end" class="tag">WELLNESS</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">AI-powered wellness and personal development platform focused on emotional clarity,</text>
+    <text x="24" y="86" class="desc">routines, self-reflection, and building consistency.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">Next.js, React Native (Expo), Supabase, Gemini</text>
+  </g>
+
+  <!-- 2. Chobo -->
+  <g transform="translate(0,132)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">Chobo</text>
+    <text x="796" y="33" text-anchor="end" class="tag">SPORTS SAAS</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">Football infrastructure SaaS: a digital home for grassroots clubs and leagues to manage</text>
+    <text x="24" y="86" class="desc">players, fixtures, competitions, tactics, and their online presence.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">React, Vite, React Native (Expo), TypeScript, Supabase</text>
+  </g>
+
+  <!-- 3. Wakili -->
+  <g transform="translate(0,264)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">Wakili</text>
+    <text x="796" y="33" text-anchor="end" class="tag">LEGALTECH</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">AI-powered legal operations platform for Kenyan law firms, covering legal document</text>
+    <text x="24" y="86" class="desc">drafting, contract management, and multi-stage litigation preparation.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">Next.js, TypeScript, Firebase, Google Gemini</text>
+  </g>
+
+  <!-- 4. Sipha -->
+  <g transform="translate(0,396)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">Sipha</text>
+    <text x="796" y="33" text-anchor="end" class="tag">READING &amp; LEARNING</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">A reading and learning platform combining personal libraries, EPUB reading, AI-powered</text>
+    <text x="24" y="86" class="desc">comprehension, vocabulary building, reading circles, and structured reading programmes.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">React Native (Expo), Firebase, Firestore, Google Gemini</text>
+  </g>
+
+  <!-- 5. RedRush -->
+  <g transform="translate(0,528)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">RedRush</text>
+    <text x="796" y="33" text-anchor="end" class="tag">HEALTHTECH</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">Real-time blood donor matching platform built for Kenya, with intelligent donor ranking,</text>
+    <text x="24" y="86" class="desc">location-based matching, availability checks, and multilingual notifications.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">React Native (Expo), Supabase, PostgreSQL, Edge Functions, Gemini</text>
+  </g>
+
+  <!-- 6. MatchLens Live -->
+  <g transform="translate(0,660)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">MatchLens Live</text>
+    <text x="796" y="33" text-anchor="end" class="tag">SPORTS ANALYTICS</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">Football intelligence and broadcast analytics platform generating match insights,</text>
+    <text x="24" y="86" class="desc">tactical narratives, and real-time performance analysis.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">Python, FastAPI, React, Machine Learning, Google Gemini</text>
+  </g>
+
+  <!-- 7. Expected Threat -->
+  <g transform="translate(0,792)">
+    <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="34" class="title">Expected Threat (xT)</text>
+    <text x="796" y="33" text-anchor="end" class="tag">RESEARCH</text>
+    <line x1="24" y1="46" x2="796" y2="46" stroke="#21262d"/>
+    <text x="24" y="68" class="desc">Football analytics research project modelling possession value and player performance</text>
+    <text x="24" y="86" class="desc">using machine learning, expected threat, expected assists, and defensive metrics.</text>
+    <text x="24" y="106" class="k">Stack</text>
+    <text x="80" y="106" class="v">Python, LightGBM, PyTorch, Scikit-learn, FastAPI, StatsBomb Open Data</text>
+  </g>
+</svg>
