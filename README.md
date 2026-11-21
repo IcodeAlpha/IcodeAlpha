@@ -2,13 +2,6 @@
 
 <img src="./assets/terminal.svg" alt="alpha@icodealpha terminal card" width="820" />
 
-<br><br>
-
-<a href="https://sanctumental.com"><img src="https://img.shields.io/badge/Sanctum-sanctumental.com-0d1117?style=for-the-badge&labelColor=0d1117&color=ffa657" alt="Sanctum" /></a>
-<a href="https://chobo.co.ke"><img src="https://img.shields.io/badge/Chobo-chobo.co.ke-0d1117?style=for-the-badge&labelColor=0d1117&color=ffa657" alt="Chobo" /></a>
-<a href="mailto:alphamunene5@gmail.com"><img src="https://img.shields.io/badge/Email-alphamunene5@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=ffa657&labelColor=0d1117&color=ffa657" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/icodealpha"><img src="https://img.shields.io/badge/LinkedIn-icodealpha-0d1117?style=for-the-badge&logo=linkedin&logoColor=ffa657&labelColor=0d1117&color=ffa657" alt="LinkedIn" /></a>
-
 </div>
 
 ---
