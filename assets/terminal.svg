@@ -39,8 +39,8 @@
   <text x="24" y="310"><tspan class="k">Languages.Real:</tspan><tspan class="v" x="250">English, Swahili</tspan></text>
 
   <!-- projects -->
-  <text x="24" y="342"><tspan class="k">Projects.Building:</tspan><tspan class="v" x="250">FootballOS, Sanctum, Wakili</tspan></text>
-  <text x="24" y="364"><tspan class="k">Projects.Marketplace:</tspan><tspan class="v" x="250">Art Soko</tspan></text>
+  <text x="24" y="342"><tspan class="k">Projects.Building:</tspan><tspan class="v" x="250">Chobo, Sanctumental, Wakili, RedRush, Sipha</tspan></text>
+  <text x="24" y="364"><tspan class="k">Projects.Marketplace:</tspan><tspan class="v" x="250">Jersey Shop </tspan></text>
   <text x="24" y="386"><tspan class="k">Projects.Security:</tspan><tspan class="v" x="250">Cybersecurity ML pipeline (FastAPI)</tspan></text>
   <text x="24" y="408"><tspan class="k">Learning:</tspan><tspan class="v" x="250">Cybersecurity</tspan></text>
   <text x="24" y="430"><tspan class="k">Community:</tspan><tspan class="v" x="250">AI Tinkerers Nairobi</tspan></text>
@@ -49,14 +49,14 @@
   <text x="24" y="462" class="h">Contact</text>
   <line x1="100" y1="458" x2="796" y2="458" stroke="#30363d"/>
   <text x="24" y="490"><tspan class="k">Email.Personal:</tspan><tspan class="v" x="250">alphamunene5@gmail.com</tspan></text>
-  <text x="24" y="512"><tspan class="k">Website:</tspan><tspan class="v" x="250">sanctumental.com</tspan></text>
+  <text x="24" y="512"><tspan class="k">Website:</tspan><tspan class="v" x="250">alphamunene.vercel.app</tspan></text>
   <text x="24" y="534"><tspan class="k">GitHub:</tspan><tspan class="v" x="250">github.com/IcodeAlpha</tspan></text>
 
   <!-- stats -->
   <text x="24" y="566" class="h">GitHub Stats</text>
   <line x1="140" y1="562" x2="796" y2="562" stroke="#30363d"/>
-  <text x="24" y="594"><tspan class="k">Repos:</tspan><tspan class="v" x="250">66</tspan></text>
-  <text x="24" y="616"><tspan class="k">Stars:</tspan><tspan class="v" x="250">2</tspan></text>
+  <text x="24" y="594"><tspan class="k">Repos:</tspan><tspan class="v" x="250">72</tspan></text>
+  <text x="24" y="616"><tspan class="k">Stars:</tspan><tspan class="v" x="250">12</tspan></text>
 
   <!-- closing prompt -->
   <text x="24" y="650" class="g">alpha@icodealpha:~$</text>
