@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="680" viewBox="0 0 820 680" role="img" aria-label="Terminal card for alpha@icodealpha">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; fill: #e6edf3; white-space: pre; }
+    .k { fill: #ffa657; }
+    .v { fill: #79c0ff; }
+    .g { fill: #7ee787; font-weight: bold; }
+    .h { fill: #e6edf3; font-weight: bold; }
+    .d { fill: #6e7681; }
+    .cur { fill: #7ee787; animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="819" height="679" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 36 V10.5 a10 10 0 0 1 10 -10 H809.5 a10 10 0 0 1 10 10 V36 Z" fill="#161b22"/>
+  <line x1="0.5" y1="36" x2="819.5" y2="36" stroke="#30363d"/>
+  <circle cx="24" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="18" r="6" fill="#27c93f"/>
+  <text x="410" y="23" text-anchor="middle" class="d">alpha@icodealpha: ~</text>
+
+  <!-- prompt -->
+  <text x="24" y="64"><tspan class="g">alpha@icodealpha:~$</tspan> neofetch</text>
+
+  <!-- identity -->
+  <text x="24" y="96" class="g">alpha@icodealpha</text>
+  <line x1="180" y1="92" x2="796" y2="92" stroke="#30363d"/>
+
+  <text x="24" y="124"><tspan class="k">OS:</tspan><tspan class="v" x="250">Windows 11, macOS, Linux</tspan></text>
+  <text x="24" y="146"><tspan class="k">Host:</tspan><tspan class="v" x="250">Solo Founder, Nairobi, Kenya</tspan></text>
+  <text x="24" y="168"><tspan class="k">Kernel:</tspan><tspan class="v" x="250">Full-Stack + AI/ML Engineer</tspan></text>
+  <text x="24" y="190"><tspan class="k">IDE:</tspan><tspan class="v" x="250">VSCode, Cursor</tspan></text>
+
+  <!-- languages -->
+  <text x="24" y="222"><tspan class="k">Languages.Programming:</tspan><tspan class="v" x="250">TypeScript, Python, JavaScript</tspan></text>
+  <text x="24" y="244"><tspan class="k">Languages.Frameworks:</tspan><tspan class="v" x="250">React, Next.js, React Native (Expo)</tspan></text>
+  <text x="24" y="266"><tspan class="k">Languages.AI/ML:</tspan><tspan class="v" x="250">TensorFlow, PyTorch, LangChain</tspan></text>
+  <text x="24" y="288"><tspan class="k">Languages.Backend:</tspan><tspan class="v" x="250">Node.js, FastAPI, Firebase, Supabase, Convex</tspan></text>
+  <text x="24" y="310"><tspan class="k">Languages.Real:</tspan><tspan class="v" x="250">English, Swahili</tspan></text>
+
+  <!-- projects -->
+  <text x="24" y="342"><tspan class="k">Projects.Building:</tspan><tspan class="v" x="250">FootballOS, Sanctum, Wakili</tspan></text>
+  <text x="24" y="364"><tspan class="k">Projects.Marketplace:</tspan><tspan class="v" x="250">Art Soko</tspan></text>
+  <text x="24" y="386"><tspan class="k">Projects.Security:</tspan><tspan class="v" x="250">Cybersecurity ML pipeline (FastAPI)</tspan></text>
+  <text x="24" y="408"><tspan class="k">Learning:</tspan><tspan class="v" x="250">Cybersecurity</tspan></text>
+  <text x="24" y="430"><tspan class="k">Community:</tspan><tspan class="v" x="250">AI Tinkerers Nairobi</tspan></text>
+
+  <!-- contact -->
+  <text x="24" y="462" class="h">Contact</text>
+  <line x1="100" y1="458" x2="796" y2="458" stroke="#30363d"/>
+  <text x="24" y="490"><tspan class="k">Email.Personal:</tspan><tspan class="v" x="250">alphamunene5@gmail.com</tspan></text>
+  <text x="24" y="512"><tspan class="k">Website:</tspan><tspan class="v" x="250">sanctumental.com</tspan></text>
+  <text x="24" y="534"><tspan class="k">GitHub:</tspan><tspan class="v" x="250">github.com/IcodeAlpha</tspan></text>
+
+  <!-- stats -->
+  <text x="24" y="566" class="h">GitHub Stats</text>
+  <line x1="140" y1="562" x2="796" y2="562" stroke="#30363d"/>
+  <text x="24" y="594"><tspan class="k">Repos:</tspan><tspan class="v" x="250">66</tspan></text>
+  <text x="24" y="616"><tspan class="k">Stars:</tspan><tspan class="v" x="250">2</tspan></text>
+
+  <!-- closing prompt -->
+  <text x="24" y="650" class="g">alpha@icodealpha:~$</text>
+  <rect class="cur" x="196" y="637" width="9" height="16"/>
+</svg>
