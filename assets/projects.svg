@@ -5,6 +5,20 @@
     .desc { font: 400 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; }
     .k { font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
     .v { font: 400 13px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; fill: #b1bac4; }
+
+    /* Looping effects: the glowing bar and a "live" dot with a pulse ring.
+       Each card gets a different negative delay so they don't pulse in sync. */
+    .bar { animation: glow 2.6s ease-in-out infinite alternate; }
+    .dot { animation: breathe 2s ease-in-out infinite; }
+    .ring { opacity: 0; transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; }
+
+    @keyframes glow { from { opacity: .45; } to { opacity: 1; } }
+    @keyframes breathe { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+    @keyframes ping { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(3.2); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bar, .dot, .ring { animation: none !important; }
+    }
   </style>
   <defs>
     <clipPath id="card"><rect x="0.5" y="0.5" width="819" height="117" rx="10"/></clipPath>
@@ -13,9 +27,11 @@
   <!-- 1. Sanctum -->
   <g transform="translate(0,0)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#7ee787" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#7ee787" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-0.0s" x="0" y="0" width="5" height="118" fill="#7ee787" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#7ee787">Sanctum</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#7ee787">WELLNESS</text>
+    <circle class="ring" style="animation-delay:-0.0s" cx="790" cy="29" r="3.5" fill="#7ee787"/>
+    <circle class="dot" style="animation-delay:-0.0s" cx="790" cy="29" r="3.5" fill="#7ee787"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#7ee787">WELLNESS</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">AI-powered wellness and personal development platform focused on emotional clarity,</text>
     <text x="26" y="86" class="desc">routines, self-reflection, and building consistency.</text>
@@ -26,9 +42,11 @@
   <!-- 2. Chobo -->
   <g transform="translate(0,132)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#79c0ff" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#79c0ff" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-0.7s" x="0" y="0" width="5" height="118" fill="#79c0ff" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#79c0ff">Chobo</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#79c0ff">SPORTS SAAS</text>
+    <circle class="ring" style="animation-delay:-0.7s" cx="790" cy="29" r="3.5" fill="#79c0ff"/>
+    <circle class="dot" style="animation-delay:-0.7s" cx="790" cy="29" r="3.5" fill="#79c0ff"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#79c0ff">SPORTS SAAS</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">Football infrastructure SaaS: a digital home for grassroots clubs and leagues to manage</text>
     <text x="26" y="86" class="desc">players, fixtures, competitions, tactics, and their online presence.</text>
@@ -39,9 +57,11 @@
   <!-- 3. Wakili -->
   <g transform="translate(0,264)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#d2a8ff" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#d2a8ff" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-1.4s" x="0" y="0" width="5" height="118" fill="#d2a8ff" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#d2a8ff">Wakili</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#d2a8ff">LEGALTECH</text>
+    <circle class="ring" style="animation-delay:-1.4s" cx="790" cy="29" r="3.5" fill="#d2a8ff"/>
+    <circle class="dot" style="animation-delay:-1.4s" cx="790" cy="29" r="3.5" fill="#d2a8ff"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#d2a8ff">LEGALTECH</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">AI-powered legal operations platform for Kenyan law firms, covering legal document</text>
     <text x="26" y="86" class="desc">drafting, contract management, and multi-stage litigation preparation.</text>
@@ -52,9 +72,11 @@
   <!-- 4. Sipha -->
   <g transform="translate(0,396)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#ffa657" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#ffa657" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-2.1s" x="0" y="0" width="5" height="118" fill="#ffa657" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#ffa657">Sipha</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#ffa657">READING &amp; LEARNING</text>
+    <circle class="ring" style="animation-delay:-2.1s" cx="790" cy="29" r="3.5" fill="#ffa657"/>
+    <circle class="dot" style="animation-delay:-2.1s" cx="790" cy="29" r="3.5" fill="#ffa657"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#ffa657">READING &amp; LEARNING</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">A reading and learning platform combining personal libraries, EPUB reading, AI-powered</text>
     <text x="26" y="86" class="desc">comprehension, vocabulary building, reading circles, and structured reading programmes.</text>
@@ -65,9 +87,11 @@
   <!-- 5. RedRush -->
   <g transform="translate(0,528)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#ff7b72" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#ff7b72" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-2.8s" x="0" y="0" width="5" height="118" fill="#ff7b72" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#ff7b72">RedRush</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#ff7b72">HEALTHTECH</text>
+    <circle class="ring" style="animation-delay:-2.8s" cx="790" cy="29" r="3.5" fill="#ff7b72"/>
+    <circle class="dot" style="animation-delay:-2.8s" cx="790" cy="29" r="3.5" fill="#ff7b72"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#ff7b72">HEALTHTECH</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">Real-time blood donor matching platform built for Kenya, with intelligent donor ranking,</text>
     <text x="26" y="86" class="desc">location-based matching, availability checks, and multilingual notifications.</text>
@@ -78,9 +102,11 @@
   <!-- 6. MatchLens Live -->
   <g transform="translate(0,660)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#f2cc60" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#f2cc60" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-3.5s" x="0" y="0" width="5" height="118" fill="#f2cc60" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#f2cc60">MatchLens Live</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#f2cc60">SPORTS ANALYTICS</text>
+    <circle class="ring" style="animation-delay:-3.5s" cx="790" cy="29" r="3.5" fill="#f2cc60"/>
+    <circle class="dot" style="animation-delay:-3.5s" cx="790" cy="29" r="3.5" fill="#f2cc60"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#f2cc60">SPORTS ANALYTICS</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">Football intelligence and broadcast analytics platform generating match insights,</text>
     <text x="26" y="86" class="desc">tactical narratives, and real-time performance analysis.</text>
@@ -91,9 +117,11 @@
   <!-- 7. Expected Threat (xT) -->
   <g transform="translate(0,792)">
     <rect x="0.5" y="0.5" width="819" height="117" rx="10" fill="#0d1117" stroke="#f778ba" stroke-opacity="0.35"/>
-    <rect x="0" y="0" width="5" height="118" fill="#f778ba" clip-path="url(#card)"/>
+    <rect class="bar" style="animation-delay:-4.2s" x="0" y="0" width="5" height="118" fill="#f778ba" clip-path="url(#card)"/>
     <text x="26" y="34" class="title" fill="#f778ba">Expected Threat (xT)</text>
-    <text x="796" y="33" text-anchor="end" class="tag" fill="#f778ba">RESEARCH</text>
+    <circle class="ring" style="animation-delay:-4.2s" cx="790" cy="29" r="3.5" fill="#f778ba"/>
+    <circle class="dot" style="animation-delay:-4.2s" cx="790" cy="29" r="3.5" fill="#f778ba"/>
+    <text x="778" y="33" text-anchor="end" class="tag" fill="#f778ba">RESEARCH</text>
     <line x1="26" y1="46" x2="796" y2="46" stroke="#21262d"/>
     <text x="26" y="68" class="desc">Football analytics research project modelling possession value and player performance</text>
     <text x="26" y="86" class="desc">using machine learning, expected threat, expected assists, and defensive metrics.</text>
